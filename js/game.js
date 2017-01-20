@@ -125,7 +125,7 @@ Game.prototype.checkForLoss = function() {
 Game.prototype.checkForWin = function() {
   for(var i = 0; i < this.board.length; i++) {
     for(var j = 0; j < this.board[0].length; j++) {
-      if (this.board[j][i] === 256) {
+      if (this.board[j][i] === 512) {
         return true
       }
     }
