@@ -1,48 +1,75 @@
-td {
-  width: 50px;
-  height: 50px;
-  border: 1px solid black;
+body {
+    background-color: black;
+}
+
+.center-me {
+  margin: 0 auto;
+}
+
+.center-text {
   text-align: center;
-  font-size: 25px;
+}
+
+.color-white {
+  color: white;
+}
+
+
+td {
+  width: 80px;
+  height: 80px;
+  border: 1px solid white;
+  text-align: center;
+  font-size: 45px;
   font-style: bold;
 }
 
 .c0 {
-  background-color: rgba(70, 134, 173, 0.41);
+  background-color: rgba(70, 134, 173, 0.4);
+  color: rgb(179, 179, 179);
 }
 
 .c2 {
-  background-color: rgba(70, 82, 173, 0.41);
+  background-color: rgba(70, 82, 173, 0.5);
+  color: rgb(191, 191, 191);
 }
 
 .c4 {
-  background-color: rgba(110, 70, 173, 0.41);
+  background-color: rgba(110, 70, 173, 0.6);
+  color: rgb(198, 198, 198);
 }
 
 .c8 {
-  background-color: rgba(161, 70, 173, 0.41);
+  background-color: rgba(161, 70, 173, 0.7);
+  color: rgb(204, 204, 204);
 }
 
 .c16 {
-  background-color: rgba(173, 70, 82, 0.41);
+  background-color: rgba(173, 70, 82, 0.8);
+  color: rgb(209, 209, 209);
 }
 
 .c32 {
-  background-color: rgba(173, 110, 70, 0.41);
+  background-color: rgba(173, 110, 70, 0.9);
+  color: rgb(217, 217, 217);
 }
 
 .c64 {
-  background-color: rgba(173, 161, 70, 0.41);
+  background-color: rgba(173, 161, 70, 0.92);
+  color: rgb(230, 230, 230);
 }
 
 .c128 {
-  background-color: rgba(134, 173, 70, 0.41);
+  background-color: rgba(134, 173, 70, 0.94);
+  color: rgb(242, 242, 242);
 }
 
 .c256 {
-  background-color: rgba(70, 173, 110, 0.41);
+  background-color: rgba(70, 173, 110, 0.96);
+  color: rgb(255, 255, 255);
 }
 
 .c512 {
-  background-color: rgba(90, 163, 100, 0.41);
+  background-color: rgba(90, 163, 100, 0.98);
+  color: rgb(255, 255, 255);
 }
